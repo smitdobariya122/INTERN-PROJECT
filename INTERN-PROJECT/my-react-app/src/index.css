@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+.header, .footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.products {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.card {
+  background: white;
+  padding: 15px;
+  width: 250px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.luxury {
+  color: darkred;
+  font-weight: bold;
+}
+
+.normal {
+  color: green;
+  font-weight: bold;
+}
